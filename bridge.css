@@ -1,0 +1,284 @@
+body 
+{
+	padding: 0;
+	margin: 0;
+	top: 0;
+	background-color: #E5E7E9 ;
+	font-family:'Open Sans';
+}
+img
+{
+	max-width: 100%;
+}
+.container-fluid
+{
+	padding: 0;
+}
+#top
+{
+	overflow:hidden;
+	background-color:#fff;
+}
+#top .logo 
+{
+	float: left;
+}
+.logo img 
+{
+	width:200px;
+	height: 100px;
+	margin-left: 50px;
+}
+#top .hi1, #top .hi2, #top .hi3 
+{
+	width: 16%;
+	float: left;
+	margin-top: 20px;
+}
+.hi1 img, .hi2 img, .hi3 img
+{
+	float: left;
+	margin-top: 10px
+}
+.hi1 h6, .hi2 h6, .hi3 h6  
+{
+ float: left;
+ padding-left: 10px;
+ color: #424242;
+}
+.hi1 p, .hi2 p, .hi3 p 
+{
+ float: left;
+ padding-left: 10px;
+ color: #949494;
+}
+.verticalLine 
+{	
+ border:1px solid #949494;
+}
+#bottom
+{
+	overflow: hidden;
+	height: 60px;
+	background-color: #fff;
+}
+#bottom .navbar 
+{
+	margin-left: 50px;
+	width:50%;
+	top:0;
+	float: left;
+}
+#bottom .navbar a
+{
+	color: #000;
+	font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.socialmedia
+{
+	float: left;
+	width: 20%;
+}
+#bottom table
+{
+	border-top: none;
+	border-bottom: none;
+	background: none;
+	border-color: #949494;
+	height: 40px;
+}
+#bottom table th
+{
+	border-bottom: none;
+	border-top: none;
+}
+#bottom table a
+{
+	color: #949494;
+}
+#bottom table tr
+{
+	height: 70px;
+}
+#bottom .table i
+{
+ margin-left: 20px;
+ margin-bottom: 15px;
+}
+#bottom .search
+{
+	width: 20%;
+	float: left;
+	margin-left: 30px;
+}
+#bottom button
+{
+	width: 280px;
+	height: 30px;
+	background-color: #3498DB;
+	margin-top: 13px;
+}
+.carousel-inner .item img
+{
+	width: 100%;
+	height: 500px;
+}
+.carousel-caption h3
+{
+	z-index: 5; 
+	white-space: nowrap;
+	 font-size: 69px; 
+	 line-height: 76px; 
+	 font-weight: 700; 
+	 color: rgba(255, 255, 255, 1.00);
+	 font-family:'Montserrat';
+	text-align:center;
+}
+.carousel-caption p 
+{
+	z-index: 7;
+	 white-space: nowrap;
+	 font-size: 23px; 
+	 line-height: 29px;
+	  font-weight: 300;
+	   color: rgba(255, 255, 255, 1.00);
+	font-family:'Open Sans';
+	text-align:center;
+}
+.content1
+{
+	overflow: hidden;
+  padding: 0 50px 0 50px;
+}
+.text1, .text2, .text3
+{
+	float: left;
+	border:1px solid #fff;
+	background-color: #fff;
+	padding:50px 50px;
+}
+.text1, .text2
+{
+	border-right: 1px solid #949494;
+}
+.text1 img, .text2 img, .text3 img 
+{
+	width: 300px;
+	height: 150px;
+}
+.text1 h4, .text2 h4, .text3 h4
+{
+   color: #3498DB;
+   padding-top: 10px;
+}
+.text1 h3, .text2 h3, .text3 h3
+{
+	color: #000;
+}
+.text1 p, .text2 p, .text3 p
+{
+	color: #949494;
+	font-size: 20px;
+	padding-top: 10px;
+	line-height: 30px;
+}
+.text1 button, .text2 button, .text3 button
+{
+	width: 150px;
+	height: 70px;
+	margin-left: 30px;
+	font-family:'Montserrat';
+	background-color: #2e82ea;
+	border-color: #2e82ea;
+}
+.text2 button.button1, .text1 button.button1, .text3 button.button1 
+{
+	width: 70px;
+	height: 70px;
+	background-color: #2270d1;
+	font-family:'Montserrat';
+}
+.carousel-inner
+{
+	padding: 0 20px 0 20px;
+}
+.section2
+{
+	margin: 100px 0 0 0;
+}
+.content2-text1, .content2-text2, .content2-text3
+{
+	width: 32%;
+	float: left;
+	margin:0 20px 0 0;
+}
+.content2-text1 h3, .content2-text2 h3, .content2-text3 h3
+{
+	color: #3498DB;
+   padding-top: 10px;
+   padding-left: 10px;
+}
+.content2-text1 h1, .content2-text2 h1, .content2-text3 h1
+{
+	font-weight:bold;
+	padding-left: 10px;
+}
+.content2-text1 p, .content2-text2 p, .content2-text3 p
+{
+	color: #949494;
+	font-size: 20px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+	padding-left: 10px;
+	line-height: 30px;
+}
+.content2-text1  button, .content2-text2 button, .content2-text3 button
+{
+	width: 180px;
+	height: 80px;
+	margin-left: 30px;
+	font-family:'Montserrat';
+	background-color: #2e82ea;
+	border-color: #2e82ea;
+}
+.content2-text1 button.button1, .content2-text2 button.button1, .content2-text3 button.button1
+{
+	width: 70px;
+	height: 80px;
+	background-color: #2270d1;
+	font-family:'Montserrat';
+}
+
+.content2-img1, .content2-img2, .content2-img3
+{
+	float: left;
+	width: 62%;
+}
+.content2-img1 img, .content2-img2 img, .content2-img3 img
+{
+	height: 100px;
+}
+
+@media only screen and (max-width: 360px) {
+	.logo img
+	{
+		max-width: 100%;
+		padding: 0 0 0 100px;
+		margin: 0;
+	}
+	.verticalLine
+	{
+		display: none;
+	}
+    #top .hi1, .hi2, .hi3
+    {
+    	display: none;
+    }
+    #bottom
+    {
+    	display: none;
+    }
+}
